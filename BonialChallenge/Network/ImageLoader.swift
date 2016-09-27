@@ -89,7 +89,9 @@ class ImageViewLoadHelper {
             defer {
                 self.associatedImageViews.removeValue(forKey: imageView)
             }
+            print(urlString)
             if error != nil {
+                print(error!)
                 return
             }
             if image != nil {

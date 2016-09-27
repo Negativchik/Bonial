@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,19 +27,19 @@
         <scene sceneID="ToS-jW-Vbn">
             <objects>
                 <collectionViewController id="H8s-xZ-0dU" customClass="ListCollectionViewController" customModule="BonialChallenge" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GhH-f0-xNM">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="GhH-f0-xNM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="ygL-gO-1WS">
                             <size key="itemSize" width="134" height="185"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="headerReferenceSize" width="50" height="69"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="4" minY="4" maxX="4" maxY="4"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BrochureCellIdentifier" id="qe4-nI-D9n" customClass="BrochureCell" customModule="BonialChallenge" customModuleProvider="target">
-                                <rect key="frame" x="4" y="4" width="134" height="185"/>
+                                <rect key="frame" x="4" y="73" width="134" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="134" height="185"/>
@@ -49,13 +50,15 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" text="Retailer Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCx-n6-zIR">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Retailer Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCx-n6-zIR">
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RYw-t7-eFt">
-                                            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" placeholder="YES" id="hNr-GY-eAF"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
                                 </view>
@@ -64,8 +67,7 @@
                                     <constraint firstAttribute="trailing" secondItem="kCx-n6-zIR" secondAttribute="trailing" id="8Xq-lC-rLm"/>
                                     <constraint firstItem="kCx-n6-zIR" firstAttribute="leading" secondItem="qe4-nI-D9n" secondAttribute="leading" id="AfO-dN-lZA"/>
                                     <constraint firstItem="gHe-RX-lnb" firstAttribute="top" secondItem="RYw-t7-eFt" secondAttribute="bottom" constant="4" id="E55-P0-egR"/>
-                                    <constraint firstAttribute="bottom" secondItem="kCx-n6-zIR" secondAttribute="bottom" constant="4" id="R6d-Au-WLg"/>
-                                    <constraint firstItem="kCx-n6-zIR" firstAttribute="top" secondItem="gHe-RX-lnb" secondAttribute="bottom" constant="4" id="STI-0O-Wot"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="kCx-n6-zIR" secondAttribute="bottom" priority="750" constant="4" id="R6d-Au-WLg"/>
                                     <constraint firstItem="RYw-t7-eFt" firstAttribute="top" secondItem="qe4-nI-D9n" secondAttribute="top" id="TCH-R2-Yl7"/>
                                     <constraint firstItem="RYw-t7-eFt" firstAttribute="leading" secondItem="qe4-nI-D9n" secondAttribute="leading" id="Tgd-8u-cat"/>
                                     <constraint firstAttribute="trailing" secondItem="RYw-t7-eFt" secondAttribute="trailing" id="a5S-Ep-AM3"/>
@@ -79,12 +81,60 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryHeaderIdentifier" id="xOZ-N7-JIb" customClass="CategoryHeaderView" customModule="BonialChallenge" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJJ-ag-NA3" userLabel="BottomLine">
+                                    <color key="backgroundColor" red="0.91767555479999996" green="0.080516032870000004" blue="0.064040891830000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="OIc-Ij-f3f"/>
+                                    </constraints>
+                                </view>
+                                <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" text="Automotive" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mcF-R9-uLa">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 items" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZC-Aq-rPl">
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AiJ-WD-fGb">
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="AiJ-WD-fGb" secondAttribute="height" multiplier="1:1" id="Dik-JN-iI9"/>
+                                        <constraint firstAttribute="width" constant="50" placeholder="YES" id="RXg-1b-VbR"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="mcF-R9-uLa" secondAttribute="trailing" constant="8" id="BAu-7Y-eWC"/>
+                                <constraint firstItem="AiJ-WD-fGb" firstAttribute="leading" secondItem="xOZ-N7-JIb" secondAttribute="leading" constant="4" id="Ddo-TH-rbP"/>
+                                <constraint firstItem="EJJ-ag-NA3" firstAttribute="leading" secondItem="xOZ-N7-JIb" secondAttribute="leading" id="Gtr-wc-9Do"/>
+                                <constraint firstAttribute="trailing" secondItem="VZC-Aq-rPl" secondAttribute="trailing" constant="8" id="Hld-TX-gyz"/>
+                                <constraint firstItem="VZC-Aq-rPl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="mcF-R9-uLa" secondAttribute="bottom" constant="4" id="NGs-dd-wnV"/>
+                                <constraint firstItem="mcF-R9-uLa" firstAttribute="leading" secondItem="AiJ-WD-fGb" secondAttribute="trailing" constant="8" id="PqX-k7-DCF"/>
+                                <constraint firstItem="mcF-R9-uLa" firstAttribute="top" secondItem="xOZ-N7-JIb" secondAttribute="top" constant="4" id="S5V-rt-hSa"/>
+                                <constraint firstAttribute="bottom" secondItem="EJJ-ag-NA3" secondAttribute="bottom" id="XeV-pr-24Q"/>
+                                <constraint firstItem="EJJ-ag-NA3" firstAttribute="top" secondItem="VZC-Aq-rPl" secondAttribute="bottom" constant="4" id="fiC-Bi-Sog"/>
+                                <constraint firstAttribute="trailing" secondItem="EJJ-ag-NA3" secondAttribute="trailing" id="mek-pb-eLm"/>
+                                <constraint firstItem="AiJ-WD-fGb" firstAttribute="centerY" secondItem="xOZ-N7-JIb" secondAttribute="centerY" id="tzc-Wq-cW0"/>
+                                <constraint firstItem="VZC-Aq-rPl" firstAttribute="leading" secondItem="AiJ-WD-fGb" secondAttribute="trailing" constant="8" id="vEZ-GF-vwl"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="countLabel" destination="VZC-Aq-rPl" id="M0b-N1-H35"/>
+                                <outlet property="logoImageView" destination="AiJ-WD-fGb" id="MoL-gR-qrg"/>
+                                <outlet property="titleLabel" destination="mcF-R9-uLa" id="iVv-7a-uuD"/>
+                            </connections>
+                        </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="H8s-xZ-0dU" id="fBp-fw-q9W"/>
                             <outlet property="delegate" destination="H8s-xZ-0dU" id="mf9-Im-yAF"/>
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="BMF-3A-gDm"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zZn-Q4-pLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

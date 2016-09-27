@@ -11,17 +11,13 @@ import Foundation
 class Category {
     
     let id: UInt
-    let url: URL?
+    let urlString: String
     let name: String
     var brochures = [Brochure]()
     
     init(id: UInt, urlString: String?, name: String?) {
         self.id = id
-        if urlString != nil {
-            self.url = URL(string: urlString!)
-        } else {
-            self.url = nil
-        }
+        self.urlString = urlString ?? ""
         self.name = name ?? ""
     }
     

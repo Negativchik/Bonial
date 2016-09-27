@@ -8,7 +8,8 @@
 
 import UIKit
 
-private let reuseIdentifier = "BrochureCellIdentifier"
+private let brochureCellReuseIdentifier = "BrochureCellIdentifier"
+private let categoryHeaderReuseIdentifier = "CategoryHeaderIdentifier"
 
 class ListCollectionViewController: UICollectionViewController {
     
@@ -30,6 +31,12 @@ class ListCollectionViewController: UICollectionViewController {
         }) { (response: URLResponse?, error: Error) in
             print(error)
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     func serializeResponse(data: Data) {
@@ -57,13 +64,12 @@ class ListCollectionViewController: UICollectionViewController {
         return categories.count
     }
 
-
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return categories[section].brochures.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! BrochureCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: brochureCellReuseIdentifier, for: indexPath) as! BrochureCell
     
         let category = categories[indexPath.section]
         let brochure = category.brochures[indexPath.row]
@@ -76,6 +82,24 @@ class ListCollectionViewController: UICollectionViewController {
     }
 
     // MARK: <UICollectionViewDelegate>
-
-
+    
+    override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        if kind == UICollectionElementKindSectionHeader {
+            let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: categoryHeaderReuseIdentifier, for: indexPath) as! CategoryHeaderView
+            
+            let category = categories[indexPath.section]
+            headerView.titleLabel.text = category.name
+            let count = category.brochures.count
+            if count > 1 {
+                headerView.countLabel.text = "\(count) items"
+            } else {
+                headerView.countLabel.text = "\(count) item"
+            }
+            headerView.logoImageView.setImage(urlString: category.urlString)
+            
+            return headerView
+            
+        }
+        return UICollectionReusableView()
+    }
 }
