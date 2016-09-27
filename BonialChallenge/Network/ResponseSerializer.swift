@@ -46,12 +46,8 @@ class ResponseSerializer {
     func serializeAsync(completion: @escaping SerializationCompletion, failure: SerializationFailure?) {
         currentOperation?.cancel()
         
-//        weak var wself = self
         let operation = BlockOperation(block: {
             do {
-//                if wself == nil {
-//                    return
-//                }
                 let categories = try self.serializeSync()
                 DispatchQueue.main.async {
                     completion(categories)

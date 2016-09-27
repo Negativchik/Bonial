@@ -1,0 +1,652 @@
+{
+"sectors": [
+{
+"id": 7971122,
+"url": "http://static06.retale.com/logos/sector/7971122/small/logo60x25.v5288.png",
+"name": "Grocery & Drug",
+"brochures": [
+{
+"id": 65468461,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Frightfully Fun Savings!",
+"retailerName": "Walmart"
+},
+{
+"id": 65471997,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Sencillo y Escalofriantemente Bueno",
+"retailerName": "Walmart"
+},
+{
+"id": 66309920,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Spooky Good Deals",
+"retailerName": "Target"
+},
+{
+"id": 66569721,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Monster Savings",
+"retailerName": "Big Lots"
+},
+{
+"id": 67514000,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Trick or Treat! ",
+"retailerName": "Rite Aid"
+},
+{
+"id": 68056869,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "Vamp-Up the Deals!",
+"retailerName": "CVS"
+},
+{
+"id": 67931398,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_6.jpg",
+"title": "Happy Halloween! ",
+"retailerName": "Stop & Shop"
+},
+{
+"id": 65095558,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_7.jpg",
+"title": "Savory",
+"retailerName": "Stop & Shop"
+},
+{
+"id": 68765441,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_8.jpg",
+"title": "Ability Meets Affordability",
+"retailerName": "Lenovo at Walmart"
+},
+{
+"id": 63848510,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_9.jpg",
+"title": "Lenovo at Walmart",
+"retailerName": "Lenovo at Walmart"
+}
+]
+},
+{
+"id": 7971119,
+"url": "http://static08.retale.com/logos/sector/7971119/small/logo60x25.v9413.png",
+"name": "Hardware & Appliances",
+"brochures": [
+{
+"id": 63611933,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Big October Savings!",
+"retailerName": "Ace Hardware"
+},
+{
+"id": 63622809,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "All You Need for Autumn Sale!",
+"retailerName": "Ace Hardware"
+},
+{
+"id": 66556664,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Time to Equip",
+"retailerName": "Best Buy"
+}
+]
+},
+{
+"id": 7971120,
+"url": "http://static06.retale.com/logos/sector/7971120/small/logo60x25.v2988.png",
+"name": "Department Stores",
+"brochures": [
+{
+"id": 66309920,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Spooky Good Deals",
+"retailerName": "Target"
+},
+{
+"id": 67504822,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Holiday Home Sales",
+"retailerName": "JCPenney"
+},
+{
+"id": 67955827,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Friends and Family",
+"retailerName": "JCPenney"
+},
+{
+"id": 66355386,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Great Toys 2015",
+"retailerName": "Kohl's"
+},
+{
+"id": 63081205,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Step Out – Fall Fashion 2015",
+"retailerName": "Sears"
+}
+]
+},
+{
+"id": 7971121,
+"url": "http://static05.retale.com/logos/sector/7971121/small/logo60x25.v1758.png",
+"name": "Discount & Outlet Store",
+"brochures": [
+{
+"id": 65468461,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Frightfully Fun Savings!",
+"retailerName": "Walmart"
+},
+{
+"id": 65471997,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Sencillo y Escalofriantemente Bueno",
+"retailerName": "Walmart"
+},
+{
+"id": 66569721,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Monster Savings",
+"retailerName": "Big Lots"
+},
+{
+"id": 60909864,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Membership Offers",
+"retailerName": "BJ's"
+},
+{
+"id": 64231821,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Here Today, Gone Tomorrow!",
+"retailerName": "Tuesday Morning"
+}
+]
+},
+{
+"id": 7971118,
+"url": "http://static08.retale.com/logos/sector/7971118/small/logo60x25.v0602.png",
+"name": "Home, Furniture & Office",
+"brochures": [
+{
+"id": 68631589,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Biggest Appliance Package Sale Ever",
+"retailerName": "P.C. Richard & Son"
+},
+{
+"id": 66309920,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Spooky Good Deals",
+"retailerName": "Target"
+},
+{
+"id": 67918754,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "New Low Prices Every Day",
+"retailerName": "Staples"
+},
+{
+"id": 62253463,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "The Best Sleep of Your Life",
+"retailerName": "Sleep Number"
+},
+{
+"id": 69091877,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "We Dropped Our Drawers",
+"retailerName": "Gothic Furniture"
+},
+{
+"id": 67788219,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "The Original Gothic Cabinet Craft",
+"retailerName": "Gothic Furniture"
+},
+{
+"id": 69091867,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_6.jpg",
+"title": "10% Off",
+"retailerName": "Gothic Furniture"
+},
+{
+"id": 67787460,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_7.jpg",
+"title": "Fall Savings",
+"retailerName": "Gothic Furniture"
+},
+{
+"id": 66569721,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_8.jpg",
+"title": "Monster Savings",
+"retailerName": "Big Lots"
+},
+{
+"id": 67504822,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_9.jpg",
+"title": "Holiday Home Sales",
+"retailerName": "JCPenney"
+},
+{
+"id": 64773147,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Pumpkin Boutique",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 64182875,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Monster Savings Days",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 60739715,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Class Catalog",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 68970074,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "The Lowest Prices of the Season!",
+"retailerName": "Sleepy's"
+},
+{
+"id": 68197762,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Halloween and Fall Deals",
+"retailerName": "Michaels"
+},
+{
+"id": 66556664,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "Time to Equip",
+"retailerName": "Best Buy"
+},
+{
+"id": 69294451,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_6.jpg",
+"title": "Let the Celebrations Begin!",
+"retailerName": "The Container Store"
+},
+{
+"id": 69294472,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_7.jpg",
+"title": "36 Tempting Kitchen Solutions",
+"retailerName": "The Container Store"
+},
+{
+"id": 69294715,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_8.jpg",
+"title": "Furniture Collection Fall/Winter 2015",
+"retailerName": "Crate & Barrel"
+},
+{
+"id": 69294668,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_9.jpg",
+"title": "Welcome to Our October Issue",
+"retailerName": "Ethan Allen"
+},
+{
+"id": 65182837,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Biggest Sale of the Season",
+"retailerName": "La-Z-Boy"
+},
+{
+"id": 52370205,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Recliner Collection Fall & Winter 2015",
+"retailerName": "La-Z-Boy"
+},
+{
+"id": 52370261,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Fall & Winter Style Book",
+"retailerName": "La-Z-Boy"
+},
+{
+"id": 64231821,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Here Today, Gone Tomorrow!",
+"retailerName": "Tuesday Morning"
+}
+]
+},
+{
+"id": 7971123,
+"url": "http://static08.retale.com/logos/sector/7971123/small/logo60x25.v0316.png",
+"name": "Automotive",
+"brochures": [
+{
+"id": 68570905,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Rewards",
+"retailerName": "AutoZone"
+}
+]
+},
+{
+"id": 7971125,
+"url": "http://static08.retale.com/logos/sector/7971125/small/logo60x25.v6170.png",
+"name": "Toys & Baby",
+"brochures": [
+{
+"id": 66355386,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Great Toys 2015",
+"retailerName": "Kohl's"
+},
+{
+"id": 64359666,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Deals of the Week!",
+"retailerName": "Toys R Us"
+},
+{
+"id": 59727784,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Toy Guide for Differently-Abled Kids",
+"retailerName": "Toys R Us"
+},
+{
+"id": 46347618,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Baby Registry",
+"retailerName": "Babies R Us"
+},
+{
+"id": 64359571,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Happy Dreams",
+"retailerName": "Babies R Us"
+},
+{
+"id": 59728160,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "Guía de Juguetes para Niños con Habilidades Distintas",
+"retailerName": "Toys R Us"
+}
+]
+},
+{
+"id": 7971126,
+"url": "http://static07.retale.com/logos/sector/7971126/small/logo60x25.v7496.png",
+"name": "Fashion & Beauty",
+"brochures": [
+{
+"id": 65468461,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Frightfully Fun Savings!",
+"retailerName": "Walmart"
+},
+{
+"id": 65471997,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Sencillo y Escalofriantemente Bueno",
+"retailerName": "Walmart"
+},
+{
+"id": 66309920,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Spooky Good Deals",
+"retailerName": "Target"
+},
+{
+"id": 64182875,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Monster Savings Days",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 60739715,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Class Catalog",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 69295027,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "BFF: Best Fall Fashion",
+"retailerName": "Justice"
+},
+{
+"id": 65387833,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_6.jpg",
+"title": "Our Fall Obsessions",
+"retailerName": "Chico's"
+},
+{
+"id": 63081205,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_7.jpg",
+"title": "Step Out – Fall Fashion 2015",
+"retailerName": "Sears"
+},
+{
+"id": 64075299,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_8.jpg",
+"title": "Buy 2 Get 1 Free",
+"retailerName": "Ulta Beauty"
+}
+]
+},
+{
+"id": 7971127,
+"url": "http://static06.retale.com/logos/sector/7971127/small/logo60x25.v2820.png",
+"name": "Electronics & Entertainment",
+"brochures": [
+{
+"id": 65468461,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Frightfully Fun Savings!",
+"retailerName": "Walmart"
+},
+{
+"id": 65471997,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Sencillo y Escalofriantemente Bueno",
+"retailerName": "Walmart"
+},
+{
+"id": 66343909,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "No Deposit. No Credit Check. No Contract Required.",
+"retailerName": "Verizon"
+},
+{
+"id": 69093993,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": " One Plan. Pick a Size. Simple. ",
+"retailerName": "Verizon"
+},
+{
+"id": 68631589,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Biggest Appliance Package Sale Ever",
+"retailerName": "P.C. Richard & Son"
+},
+{
+"id": 67918754,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "New Low Prices Every Day",
+"retailerName": "Staples"
+},
+{
+"id": 67933548,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_6.jpg",
+"title": "Computers and Electronics",
+"retailerName": "Micro Center"
+},
+{
+"id": 66574691,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_7.jpg",
+"title": "Add Mexico Unlimited",
+"retailerName": "MetroPCS"
+},
+{
+"id": 66032154,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_8.jpg",
+"title": "Catalog",
+"retailerName": "Cricket Wireless at GameStop"
+},
+{
+"id": 68010678,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_9.jpg",
+"title": "Power to the Players",
+"retailerName": "GameStop"
+},
+{
+"id": 62153196,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Big Network. Little Price",
+"retailerName": "Cricket Wireless at GameStop"
+},
+{
+"id": 60847380,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Magical Deals",
+"retailerName": "Cricket Wireless at GameStop"
+},
+{
+"id": 66032128,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Fall Promo",
+"retailerName": "Cricket Wireless at GameStop"
+},
+{
+"id": 66032114,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Why Cricket",
+"retailerName": "Cricket Wireless at GameStop"
+},
+{
+"id": 66556664,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "Time to Equip",
+"retailerName": "Best Buy"
+},
+{
+"id": 65325565,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "Be a Part of the Revolution...",
+"retailerName": "Regal Cinemas"
+},
+{
+"id": 62599455,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_6.jpg",
+"title": "Fall/Winter 2015 Exclusive",
+"retailerName": "Guitar Center"
+},
+{
+"id": 67545520,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_7.jpg",
+"title": "Holiday Gift Guide",
+"retailerName": "Guitar Center"
+},
+{
+"id": 65316701,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_8.jpg",
+"title": "Rocktober",
+"retailerName": "Guitar Center"
+},
+{
+"id": 67034642,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_9.jpg",
+"title": "Drum Off",
+"retailerName": "Guitar Center"
+}
+]
+},
+{
+"id": 7971128,
+"url": "http://static06.retale.com/logos/sector/7971128/small/logo60x25.v3006.png",
+"name": "Other",
+"brochures": [
+{
+"id": 68197762,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Halloween and Fall Deals",
+"retailerName": "Michaels"
+}
+]
+},
+{
+"id": 14471375,
+"url": "http://static07.retale.com/logos/sector/14471375/small/logo60x25.v0256.png",
+"name": "Pet & Hobby",
+"brochures": [
+{
+"id": 64773147,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Pumpkin Boutique",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 64182875,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Monster Savings Days",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 60739715,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "Class Catalog",
+"retailerName": "Jo-Ann Stores"
+},
+{
+"id": 68197762,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "Halloween and Fall Deals",
+"retailerName": "Michaels"
+},
+{
+"id": 63573435,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_4.jpg",
+"title": "50th Anniversary Sale",
+"retailerName": "Petco"
+},
+{
+"id": 69295834,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_5.jpg",
+"title": "Buy 1 Get 1 Free Frames!",
+"retailerName": "AC Moore"
+}
+]
+},
+{
+"id": 44625063,
+"url": "http://static05.retale.com/logos/sector/44625063/small/logo60x25.v0391.png",
+"name": "Restaurant & Dining",
+"brochures": [
+{
+"id": 64360286,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_0.jpg",
+"title": "Love At First Sip Guaranteed",
+"retailerName": "Jamba Juice"
+},
+{
+"id": 61335369,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_1.jpg",
+"title": "Put. The Scissors. Down.",
+"retailerName": "Church's Chicken"
+},
+{
+"id": 60139212,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_2.jpg",
+"title": "4 Meals $4 Each",
+"retailerName": "Denny's"
+},
+{
+"id": 60138069,
+"coverUrl": "https://dl.dropboxusercontent.com/u/41357788/coding_task/images/page_3.jpg",
+"title": "2+2+2=$4",
+"retailerName": "Denny's"
+}
+]
+}
+]
+}

@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95246D181D9A8248007C5184 /* ResponseSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95246D171D9A8248007C5184 /* ResponseSerializerTests.swift */; };
+		95246D1A1D9A828E007C5184 /* ResponseMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 95246D191D9A828E007C5184 /* ResponseMock.json */; };
+		954AEC9F1D9A8ABC004A0139 /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BAA1D9997E40084DCD4 /* ResponseSerializer.swift */; };
+		954AECA01D9A8AD0004A0139 /* Brochure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BA41D9912710084DCD4 /* Brochure.swift */; };
+		954AECA11D9A8AD3004A0139 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BA71D9966870084DCD4 /* Category.swift */; };
 		95B51B801D98FAB40084DCD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51B7F1D98FAB40084DCD4 /* AppDelegate.swift */; };
-		95B51B821D98FAB40084DCD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51B811D98FAB40084DCD4 /* ViewController.swift */; };
 		95B51B851D98FAB40084DCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B51B831D98FAB40084DCD4 /* Main.storyboard */; };
 		95B51B871D98FAB40084DCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B51B861D98FAB40084DCD4 /* Assets.xcassets */; };
 		95B51B8A1D98FAB40084DCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B51B881D98FAB40084DCD4 /* LaunchScreen.storyboard */; };
-		95B51B951D98FAB40084DCD4 /* BonialChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51B941D98FAB40084DCD4 /* BonialChallengeTests.swift */; };
+		95B51BA01D98FC4E0084DCD4 /* ListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51B9F1D98FC4E0084DCD4 /* ListCollectionViewController.swift */; };
+		95B51BA31D98FDB30084DCD4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BA21D98FDB30084DCD4 /* APIManager.swift */; };
+		95B51BA51D9912710084DCD4 /* Brochure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BA41D9912710084DCD4 /* Brochure.swift */; };
+		95B51BA81D9966870084DCD4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BA71D9966870084DCD4 /* Category.swift */; };
+		95B51BAB1D9997E40084DCD4 /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BAA1D9997E40084DCD4 /* ResponseSerializer.swift */; };
+		95B51BB21D99BA680084DCD4 /* BrochureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BB11D99BA680084DCD4 /* BrochureCell.swift */; };
+		95B51BB41D9A48230084DCD4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BB31D9A48230084DCD4 /* ImageLoader.swift */; };
+		95B51BBB1D9A6C3B0084DCD4 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BBA1D9A6C3B0084DCD4 /* CategoryHeaderView.swift */; };
+		95B51BBD1D9A79100084DCD4 /* BrochureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BBC1D9A79100084DCD4 /* BrochureTests.swift */; };
+		95B51BC01D9A7C570084DCD4 /* CategoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51BBF1D9A7C570084DCD4 /* CategoryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95246D171D9A8248007C5184 /* ResponseSerializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerializerTests.swift; sourceTree = "<group>"; };
+		95246D191D9A828E007C5184 /* ResponseMock.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = ResponseMock.json; sourceTree = "<group>"; };
 		95B51B7C1D98FAB40084DCD4 /* BonialChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonialChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B51B7F1D98FAB40084DCD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95B51B811D98FAB40084DCD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95B51B841D98FAB40084DCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95B51B861D98FAB40084DCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B51B891D98FAB40084DCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B51B8B1D98FAB40084DCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95B51B901D98FAB40084DCD4 /* BonialChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonialChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		95B51B941D98FAB40084DCD4 /* BonialChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialChallengeTests.swift; sourceTree = "<group>"; };
 		95B51B961D98FAB40084DCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B51B9F1D98FC4E0084DCD4 /* ListCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListCollectionViewController.swift; path = ViewControllers/ListCollectionViewController.swift; sourceTree = "<group>"; };
+		95B51BA21D98FDB30084DCD4 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = Network/APIManager.swift; sourceTree = "<group>"; };
+		95B51BA41D9912710084DCD4 /* Brochure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Brochure.swift; path = Model/Brochure.swift; sourceTree = "<group>"; };
+		95B51BA71D9966870084DCD4 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Model/Category.swift; sourceTree = "<group>"; };
+		95B51BAA1D9997E40084DCD4 /* ResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerializer.swift; path = Network/ResponseSerializer.swift; sourceTree = "<group>"; };
+		95B51BB11D99BA680084DCD4 /* BrochureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrochureCell.swift; path = Views/BrochureCell.swift; sourceTree = "<group>"; };
+		95B51BB31D9A48230084DCD4 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Network/ImageLoader.swift; sourceTree = "<group>"; };
+		95B51BBA1D9A6C3B0084DCD4 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryHeaderView.swift; path = Views/CategoryHeaderView.swift; sourceTree = "<group>"; };
+		95B51BBC1D9A79100084DCD4 /* BrochureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrochureTests.swift; sourceTree = "<group>"; };
+		95B51BBF1D9A7C570084DCD4 /* CategoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				95B51B7F1D98FAB40084DCD4 /* AppDelegate.swift */,
-				95B51B811D98FAB40084DCD4 /* ViewController.swift */,
-				95B51B831D98FAB40084DCD4 /* Main.storyboard */,
-				95B51B861D98FAB40084DCD4 /* Assets.xcassets */,
-				95B51B881D98FAB40084DCD4 /* LaunchScreen.storyboard */,
-				95B51B8B1D98FAB40084DCD4 /* Info.plist */,
+				95B51BAC1D99B9520084DCD4 /* Interface */,
+				95B51BA61D99127E0084DCD4 /* Model */,
+				95B51BA91D996ACA0084DCD4 /* Network */,
+				95B51BAD1D99B95C0084DCD4 /* Supporting files */,
+				95B51BA11D98FD220084DCD4 /* ViewControllers */,
+				95B51BAE1D99B9F70084DCD4 /* Views */,
 			);
 			path = BonialChallenge;
 			sourceTree = "<group>";
@@ -90,10 +114,67 @@
 		95B51B931D98FAB40084DCD4 /* BonialChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				95B51B941D98FAB40084DCD4 /* BonialChallengeTests.swift */,
 				95B51B961D98FAB40084DCD4 /* Info.plist */,
+				95B51BBC1D9A79100084DCD4 /* BrochureTests.swift */,
+				95B51BBF1D9A7C570084DCD4 /* CategoryTests.swift */,
+				95246D171D9A8248007C5184 /* ResponseSerializerTests.swift */,
+				95246D191D9A828E007C5184 /* ResponseMock.json */,
 			);
 			path = BonialChallengeTests;
+			sourceTree = "<group>";
+		};
+		95B51BA11D98FD220084DCD4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95B51B9F1D98FC4E0084DCD4 /* ListCollectionViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		95B51BA61D99127E0084DCD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95B51BA41D9912710084DCD4 /* Brochure.swift */,
+				95B51BA71D9966870084DCD4 /* Category.swift */,
+				95B51BAA1D9997E40084DCD4 /* ResponseSerializer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		95B51BA91D996ACA0084DCD4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				95B51BA21D98FDB30084DCD4 /* APIManager.swift */,
+				95B51BB31D9A48230084DCD4 /* ImageLoader.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		95B51BAC1D99B9520084DCD4 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				95B51B831D98FAB40084DCD4 /* Main.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		95B51BAD1D99B95C0084DCD4 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				95B51B861D98FAB40084DCD4 /* Assets.xcassets */,
+				95B51B881D98FAB40084DCD4 /* LaunchScreen.storyboard */,
+				95B51B8B1D98FAB40084DCD4 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		95B51BAE1D99B9F70084DCD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95B51BB11D99BA680084DCD4 /* BrochureCell.swift */,
+				95B51BBA1D9A6C3B0084DCD4 /* CategoryHeaderView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +227,12 @@
 				TargetAttributes = {
 					95B51B7B1D98FAB40084DCD4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5G6BFHJ9GF;
 						ProvisioningStyle = Automatic;
 					};
 					95B51B8F1D98FAB40084DCD4 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 95B51B7B1D98FAB40084DCD4;
 					};
@@ -189,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95246D1A1D9A828E007C5184 /* ResponseMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95B51B821D98FAB40084DCD4 /* ViewController.swift in Sources */,
+				95B51BA31D98FDB30084DCD4 /* APIManager.swift in Sources */,
+				95B51BBB1D9A6C3B0084DCD4 /* CategoryHeaderView.swift in Sources */,
+				95B51BA81D9966870084DCD4 /* Category.swift in Sources */,
+				95B51BA01D98FC4E0084DCD4 /* ListCollectionViewController.swift in Sources */,
 				95B51B801D98FAB40084DCD4 /* AppDelegate.swift in Sources */,
+				95B51BAB1D9997E40084DCD4 /* ResponseSerializer.swift in Sources */,
+				95B51BB21D99BA680084DCD4 /* BrochureCell.swift in Sources */,
+				95B51BB41D9A48230084DCD4 /* ImageLoader.swift in Sources */,
+				95B51BA51D9912710084DCD4 /* Brochure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95B51B951D98FAB40084DCD4 /* BonialChallengeTests.swift in Sources */,
+				954AEC9F1D9A8ABC004A0139 /* ResponseSerializer.swift in Sources */,
+				954AECA01D9A8AD0004A0139 /* Brochure.swift in Sources */,
+				95B51BC01D9A7C570084DCD4 /* CategoryTests.swift in Sources */,
+				95B51BBD1D9A79100084DCD4 /* BrochureTests.swift in Sources */,
+				95246D181D9A8248007C5184 /* ResponseSerializerTests.swift in Sources */,
+				954AECA11D9A8AD3004A0139 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5G6BFHJ9GF;
 				INFOPLIST_FILE = BonialChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Smirnov.BonialChallenge;
@@ -351,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5G6BFHJ9GF;
 				INFOPLIST_FILE = BonialChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Smirnov.BonialChallenge;
@@ -364,10 +462,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BonialChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Smirnov.BonialChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonialChallenge.app/BonialChallenge";
 			};
@@ -378,6 +478,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BonialChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Smirnov.BonialChallengeTests;
@@ -406,6 +507,7 @@
 				95B51B9B1D98FAB40084DCD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95B51B9C1D98FAB40084DCD4 /* Build configuration list for PBXNativeTarget "BonialChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +516,7 @@
 				95B51B9E1D98FAB40084DCD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
