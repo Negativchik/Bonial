@@ -12,7 +12,7 @@ class Category {
     
     let id: UInt
     let url: URL?
-    let name: String?
+    let name: String
     var brochures = [Brochure]()
     
     init(id: UInt, urlString: String?, name: String?) {
@@ -22,7 +22,7 @@ class Category {
         } else {
             self.url = nil
         }
-        self.name = name
+        self.name = name ?? ""
     }
     
     func append(brochure: Brochure) {

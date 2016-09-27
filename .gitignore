@@ -15,7 +15,7 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
-*.xcuserdatad
+
 
 ### Objective-C ###
 # Xcode
@@ -105,19 +105,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-### fastlane ###
-# fastlane - A streamlined workflow tool for Cocoa deployment
-
-# fastlane specific
-fastlane/report.xml
-
-# deliver temporary files
-fastlane/Preview.html
-
-# snapshot generated screenshots
-fastlane/screenshots/**/*.png
-fastlane/screenshots/screenshots.html
-
-# scan temporary files
-fastlane/test_output

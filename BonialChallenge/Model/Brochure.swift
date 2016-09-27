@@ -11,17 +11,13 @@ import Foundation
 class Brochure {
     
     let id: UInt
-    let coverUrl: URL?
+    let coverUrlString: String
     let title: String
     let retailerName: String
     
     init(id: UInt, urlString: String?, title: String?, retailerName: String?) {
         self.id = id
-        if urlString != nil {
-            self.coverUrl = URL(string: urlString!)
-        } else {
-            self.coverUrl = nil
-        }
+        self.coverUrlString = urlString ?? ""
         self.title = title ?? ""
         self.retailerName = retailerName ?? ""
     }

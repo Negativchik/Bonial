@@ -12,7 +12,13 @@ private let reuseIdentifier = "BrochureCellIdentifier"
 
 class ListCollectionViewController: UICollectionViewController {
     
-    var categories = [Category]()
+    var categories = [Category]() {
+        didSet {
+            categories.sort {
+                $0.name > $1.name
+            }
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,18 +45,13 @@ class ListCollectionViewController: UICollectionViewController {
     func handleError(error: Error) {
         print(error)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        ImageLoader.shared.purgeCache()
     }
-    */
 
-    // MARK: UICollectionViewDataSource
+    // MARK: <UICollectionViewDataSource>
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return categories.count
@@ -62,42 +63,19 @@ class ListCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! BrochureCell
     
-        // Configure the cell
+        let category = categories[indexPath.section]
+        let brochure = category.brochures[indexPath.row]
+        cell.titleLabel.text = brochure.title
+        cell.retailerNameLabel.text = brochure.retailerName
+        
+        cell.coverImageView.setImage(urlString: brochure.coverUrlString)
     
         return cell
     }
 
-    // MARK: UICollectionViewDelegate
+    // MARK: <UICollectionViewDelegate>
 
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(_ collectionView: UICollectionView, shouldShowMenuForItemAt indexPath: IndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, canPerformAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) {
-    
-    }
-    */
 
 }
