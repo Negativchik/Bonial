@@ -45,9 +45,9 @@ class ImageLoader {
                 }
                 return
             }
-            if localURL != nil {
+            if let localURL = localURL {
                 do {
-                    let data = try Data.init(contentsOf: localURL!)
+                    let data = try Data.init(contentsOf: localURL)
                     let image = UIImage(data: data)
                     self.cachedImages[urlString] = image
                     DispatchQueue.main.async {
@@ -94,12 +94,12 @@ class ImageViewLoadHelper {
                 print(error!)
                 return
             }
-            if image != nil {
-                imageView.image = image!
+            if let image = image {
+                imageView.image = image
             }
         }
-        if downloadTask != nil {
-            ImageViewLoadHelper.shared.associatedImageViews[imageView] = downloadTask!
+        if let downloadTask = downloadTask {
+            ImageViewLoadHelper.shared.associatedImageViews[imageView] = downloadTask
         }
     }
     

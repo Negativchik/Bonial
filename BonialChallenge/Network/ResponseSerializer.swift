@@ -69,6 +69,7 @@ class ResponseSerializer {
                 throw SerializationError.wrongJSONFormat
             }
         } catch {
+            debugPrint(error.localizedDescription)
             throw SerializationError.badResponse
         }
         

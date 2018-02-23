@@ -25,8 +25,8 @@ class ListCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
         
         _ = APIManager().loadData(completion: { (data: Data?, response: URLResponse?) in
-            if data != nil {
-                self.serializeResponse(data: data!)
+            if let data = data {
+                self.serializeResponse(data: data)
             }
         }) { (response: URLResponse?, error: Error) in
             print(error)

@@ -11,13 +11,7 @@ import UIKit
 class CategoryHeaderView: UICollectionReusableView {
     
     @IBOutlet weak var countLabel: UILabel!
-    
     @IBOutlet weak var titleLabel: UILabel!
-    
     @IBOutlet weak var logoImageView: UIImageView!
     
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        //logoImageView.image = nil
-    }
 }

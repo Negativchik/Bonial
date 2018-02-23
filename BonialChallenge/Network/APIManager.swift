@@ -52,22 +52,25 @@ class APIManager {
     // MARK: Data load stuff
     
     /// loadData loads JSON object from url
-    func loadData(completion: @escaping DataTaskCompletionClosure, failure: DataTaskFailureClosure?) -> URLSessionDataTask {
-        if url == nil {
+    @discardableResult
+    func loadData(completion: @escaping DataTaskCompletionClosure, failure: DataTaskFailureClosure?) -> URLSessionDataTask? {
+        guard let url = url else {
             failure?(nil, APIManagerError.wrongURL)
+            return nil
         }
         
         currentDataTask?.cancel()
         
-        var request = URLRequest(url: url!, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 10.0)
+        var request = URLRequest(url: url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 10.0)
         request.httpMethod = "GET"
         
         let task = session.dataTask(with: request) { (data: Data?, response: URLResponse?, error: Error?) in
             self.currentDataTask = nil
-            if (error != nil) {
-                if !(error is NSError && (error as! NSError).code == NSURLErrorCancelled) {
+            if let error = error {
+                debugPrint(error.localizedDescription)
+                if (error as NSError).code != NSURLErrorCancelled {
                     // not cancelled - some other error
-                    failure?(response, error!)
+                    failure?(response, error)
                 }
             } else {
                 completion(data, response)
